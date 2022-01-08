@@ -6,7 +6,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber"
+	_ "github.com/gofiber/fiber/v2"
 )
 
 // StartServerWithGracefulShutdown function for starting server with a graceful shutdown.
